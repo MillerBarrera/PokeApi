@@ -38,6 +38,8 @@ const fetchPokemon = async () => {
 const pokeImage = (url) => {
     const pokePhoto = document.getElementById("pokeImg");
     pokePhoto.src = url;
+    const pokePhoto1 = document.getElementById("pokeImg1");
+    pokePhoto1.src = url;
 }
 
 // Update the inner HTML of an element with the ID "abilitiesone" with the names of the abilities of the Pokemon passed as an argument
